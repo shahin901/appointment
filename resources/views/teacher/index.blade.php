@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>teacher</title>
+
+    <!-- Bootstrap -->
+   
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+  <body>
+   
+
+<div class="container-fluid">
+      <div class="row">
+         <div class="col-md-12">
+           
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                 <a class="navbar-brand" href="index">Brand</a>
+                </div>
+ <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right" style="display: inline;">
+                   
+                  <!-- <li class="active"><a href="teacher">Profile<span class="sr-only">(current)</span></a></li>  -->
+                    <li><a href="request">Rquest List</a></li>
+                    <li><a href="approved">Appoint List</a></li> 
+                    <li><a href="counselling">Counselling Time</a></li>
+                      <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" aria-haspopup="true">
+                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="{{ route('logout') }}"
+                                            onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                            Logout
+                                        </a>
+
+                                        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+                                            {{ csrf_field() }}
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                  
+                  </ul>
+                
+                
+                  </div><!-- /.navbar-collapse -->
+               </div><!-- /.container-fluid -->
+            </nav>
+         </div>
+       </div>  
+
+
+
+             
+      <div class="row">
+          <div class="col-md-12" style="padding-top: 70px;padding-left: 380px;line-height: 30px;">
+
+            <div style="float: left;">
+                Username : <br>
+                Nickname : <br>
+                Phone :   <br>
+                Email :   <br>
+                Address : <br>
+                Institute : <br>
+                Department :  <br>
+                ID : 
+            </div>
+            
+            <div style="float: right;padding-right: 500px;">
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <input type="text" name="name" size="30px" style="border-radius: 10px;"> <br>
+                  <br>
+                  <input type="submit" name="" value="Edit" style="font-size: 20px;background-color: green;color: white;width: 70px">               
+           </div>
+           
+           </div>
+        </div>
+        
+
+        <div class="row">
+        <div class="col-md-12" style="background-color: #131313;color: white;text-align: center;height: 100px;">
+          <br>
+          <hr>
+          Copyright © 2018 Shamim Reza
+        </div>
+      </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

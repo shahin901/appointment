@@ -1,0 +1,38 @@
+
+.stu_registration
+{
+    width:50%;
+    height:480px;
+    color: red;
+    margin-top:60px;
+    margin-left:250px;
+    margin-bottom:20px;
+    padding-top:40px;
+    padding-left:90px;
+    background-color: #FD4C5E;
+    color:black;
+    line-height:27px;
+}
+
+.login
+{
+   width:50%;
+   margin-left:300px;
+   margin-top:180px;   
+   padding-left:100px;
+   background-color:#FD4C5E;	  
+}
+
+.input
+{
+  height:30px;
+  width:250px; 
+  background-color:#F7C8BA;
+}
+
+.button
+{
+ font-size:15px;
+ margin-left:10px;
+}
+

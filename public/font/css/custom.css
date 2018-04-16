@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.homeDiv1{
+   
+    background-color: #FFFFFF;
+    text-align: center;
+    
+}
+
+.homeDiv2{
+    text-align: left;
+    padding-left: 15px;
+    line-height: 30px;"
+}
+
+.homeDiv2 ul li {
+    font-size: 16px;
+    line-height: 40px;"
+}
+
+#homeDiv3{
+    line-height: 20px;
+    text-align: left;"
+}
+
+
+.body2 a{
+
+    text-decoration: none;
+}
+.body3 li{
+    float: right;
+    text-align: right;
+    display: block;
+    position: inline;
+}
+
+.bigImage
+{
+    padding-top: 140px;
+    float: left;
+}
+.bigImage, h1{
+    text-align: right;
+    color: red;
+}
+
+
+.bigImage2{
+    padding-top: 70px;
+    padding-right: 350px;
+  float: right;
+}
+
+
+.bigImage h1{
+    color: black;
+    text-align: left;
+}
+
+
+.bigImage > h5{
+    color: black;
+}
+
+
+table tr th{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+.approved
+{
+    padding: 90px 50px 00px 40px;
+    color: black;
+}
+#tableDiv
+{
+    float: left;
+    width: 80%
+}
+
+.request_table
+{
+    float: left;
+    width: 100%;
+}
+
+.regi
+{
+    width:50%;
+    height:450px;
+    color: red;
+    margin-top:50px;
+    margin-left:250px;
+    padding-top:50px;
+    padding-left:90px;
+    background-color: #FD4C5E;
+    color:white;
+    line-height:27px;
+}
+#test{
+    color: red;
+    padding-top: 50px;
+    font-size: 50px;
+}
